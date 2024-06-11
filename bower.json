@@ -9,7 +9,12 @@
   ],
   "main": "parallax.min.js",
   "license": "MIT",
-  "keywords" : ["parallax", "scroll", "scrolling", "image"],
+  "keywords": [
+    "parallax",
+    "scroll",
+    "scrolling",
+    "image"
+  ],
   "ignore": [
     ".jshintrc",
     "**/*.txt"
