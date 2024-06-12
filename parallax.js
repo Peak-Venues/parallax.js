@@ -183,6 +183,7 @@
 
     if (!sliderExisted)
       if (this.videoSrc) {
+        this.$slider.attr('poster', this.imageSrc);
         var source = this.$slider.find('source');
         source.attr('src', this.videoSrc);
 
