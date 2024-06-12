@@ -151,7 +151,7 @@
 
     if (slider.length == 0)
       if (this.videoSrc)
-        this.$slider = $('<video autoplay loop muted><source type="video/mp4" /></video').prependTo(this.$mirror);
+        this.$slider = $('<video autoplay loop muted playsinline><source type="video/mp4" /></video').prependTo(this.$mirror);
       else
         this.$slider = $('<img />').prependTo(this.$mirror);
     else {
